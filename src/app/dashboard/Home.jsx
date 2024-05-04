@@ -12,7 +12,6 @@ const Home = () => {
         setBooks(response.data);
       } catch (error) {
         console.error('Erro ao buscar livros:', error);
-        // Exibir mensagem de erro ao usuário
       }
     };
 
